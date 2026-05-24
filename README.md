@@ -46,8 +46,9 @@ El desarrollo del proyecto se dividió en dos fases:
 - [Arquitectura del patrón 7-1](https://sass-guidelin.es/#the-7-1-pattern)
 
 # 📅Planificación de Commits
-- `"chore`: initial documentation setup and gitignore configuration
+- `chore`: initial documentation setup and gitignore configuration
 - `chore`: initialize vite vanilla environment with sass compiler
-- `feat`: implement product card structure using BEM naming convention
+- `feat`:  implement product card structure using BEM naming convention
 - `chore`: build modular scss architecture and design tokens
 - `style`: connect core bundle files and reset rules
+- `style`: implement card style logic using parent selection references
