@@ -49,3 +49,4 @@ El desarrollo del proyecto se dividió en dos fases:
 - `"chore`: initial documentation setup and gitignore configuration
 - `chore`: initialize vite vanilla environment with sass compiler
 - `feat`: implement product card structure using BEM naming convention
+- `chore`: build modular scss architecture and design tokens
