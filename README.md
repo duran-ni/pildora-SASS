@@ -52,3 +52,4 @@ El desarrollo del proyecto se dividió en dos fases:
 - `chore`: build modular scss architecture and design tokens
 - `style`: connect core bundle files and reset rules
 - `style`: implement card style logic using parent selection references
+- `feat`: maquetación de la tarjeta con SASS y BEM

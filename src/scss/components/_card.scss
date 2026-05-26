@@ -1,83 +1,22 @@
-@import '../abstracts/variables';
+@import '../../scss/abstracts/variables';
 
-.c-card {
-  background-color: $color-white;
-  border-radius: 12px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-  max-width: 350px;
-  overflow: hidden;
-  transition: transform 0.3s ease;
-
-  &:hover {
-    transform: translateY(-5px);
-  }
-
-  &__image-wrapper {
-    background-color: #ebebeb;
+.c-card{
+    background-color: $color-white;
+    max-width: 350px;
     padding: $spacing-lg;
-    display: flex;
-    justify-content: center;
-  }
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 
-  &__image {
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-  }
-
-  &__content {
-    padding: $spacing-lg;
-  }
-
-  &__tag {
-    display: inline-block;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: $color-accent;
-    margin-bottom: $spacing-sm;
-  }
-
-  &__title {
-    color: $color-primary;
-    font-size: 1.5rem;
-    margin-bottom: $spacing-sm;
-  }
-
-  &__description {
-    color: $color-text;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    margin-bottom: $spacing-lg;
-  }
-
-  &__footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  &__price {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: $color-primary;
-  }
-
-  &__button {
-    border: none;
-    padding: $spacing-sm $spacing-md;
-    border-radius: 6px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: opacity 0.2s ease;
-
-    &:hover {
-      opacity: 0.9;
+    &__title{
+        color: $color-primary;
+        margin: $spacing-sm 0;
     }
 
-    &--accent {
-      background-color: $color-accent;
-      color: $color-white;
+    &__button--accent{
+        background-color: $color-accent;
+        color: $color-white;
+        border: none;
+        padding: $spacing-sm $spacing-md;
+        border-radius: 6px;
     }
-  }
 }
